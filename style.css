@@ -256,3 +256,33 @@ nav a:hover {
     object-fit: cover;
     margin-bottom: 20px;
 }
+
+.contact-box {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+.contact-box button {
+    background: #1e293b;
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-box button:hover {
+    background: #334155;
+}
